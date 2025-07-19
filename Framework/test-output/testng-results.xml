@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Report Configuration]]>
+    </line>
+    <line>
+      <![CDATA[Establish DB Connectivity]]>
+    </line>
+    <line>
+      <![CDATA[Pre-Conditions]]>
+    </line>
+    <line>
+      <![CDATA[Launching the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login Action Started]]>
+    </line>
+    <line>
+      <![CDATA[==========createCampaign====STARTED======]]>
+    </line>
+    <line>
+      <![CDATA[successfully created the campaignCampaignMine]]>
+    </line>
+    <line>
+      <![CDATA[==========createCampaign====SUCCESS======]]>
+    </line>
+    <line>
+      <![CDATA[Lggedout successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Post-Conditions]]>
+    </line>
+    <line>
+      <![CDATA[Disconnect Database]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-06T10:49:56 IST" name="Default suite" finished-at="2025-07-06T10:50:04 IST" duration-ms="8413">
+    <groups>
+      <group name="smoke">
+        <method signature="Create_Campaign_TEST.createCampaign()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" name="createCampaign" class="GroupExecution.Create_Campaign_TEST"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-07-06T10:49:56 IST" name="Default test" finished-at="2025-07-06T10:50:04 IST" duration-ms="8413">
+      <class name="GroupExecution.Create_Campaign_TEST">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:49:56 IST" name="configBS" finished-at="2025-07-06T10:49:56 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Establish DB Connectivity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBT()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:49:56 IST" name="configBT" finished-at="2025-07-06T10:49:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pre-Conditions]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:49:56 IST" name="configBC" finished-at="2025-07-06T10:49:59 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:49:59 IST" name="configBM" finished-at="2025-07-06T10:50:00 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Action Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createCampaign()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:50:00 IST" name="createCampaign" finished-at="2025-07-06T10:50:03 IST" duration-ms="2726" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==========createCampaign====STARTED======]]>
+            </line>
+            <line>
+              <![CDATA[successfully created the campaignCampaignMine]]>
+            </line>
+            <line>
+              <![CDATA[==========createCampaign====SUCCESS======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:50:03 IST" name="configAM" finished-at="2025-07-06T10:50:04 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lggedout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:50:04 IST" name="configAC" finished-at="2025-07-06T10:50:04 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAT()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:50:04 IST" name="configAT" finished-at="2025-07-06T10:50:04 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Post-Conditions]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:GroupExecution.Create_Campaign_TEST@55b0dcab]" started-at="2025-07-06T10:50:04 IST" name="configAS" finished-at="2025-07-06T10:50:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Disconnect Database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- GroupExecution.Create_Campaign_TEST -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
