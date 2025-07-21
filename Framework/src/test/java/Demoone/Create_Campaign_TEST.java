@@ -35,7 +35,7 @@ public class Create_Campaign_TEST extends BaseClass{
 	{
     
 	JavaUtility jutil=new JavaUtility();
-	int randominteger=jutil.getRandomNumber();
+	int randominteger=jutil.getRandomNumber(); //yes mam 
 	
 	ExcelUtility eutil=new ExcelUtility();
 	
